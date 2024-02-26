@@ -1,9 +1,9 @@
 <script setup>
-import ErrorHandling from './components/ErrorHandling.vue'
-import FormKitExample from './components/FormKitExample.vue'
-import LoginForm from './components/LoginForm.vue'
-import SchemaExample from './components/SchemaExample.vue'
-import VuelidateForm from './components/VuelidateForm.vue'
+import FormKitExample from './components/FormKitExample.vue';
+// import ErrorHandling from './components/ErrorHandling.vue'
+// import LoginForm from './components/LoginForm.vue'
+// import SchemaExample from './components/SchemaExample.vue'
+// import VuelidateForm from './components/VuelidateForm.vue'
 async function submit() {
   await new Promise(r => setTimeout(r, 1000))
   alert('Submitted! 🎉')
@@ -12,11 +12,11 @@ async function submit() {
 
 <template>
   <div class="bg-white rounded-xl shadow-xl p-8 mx-auto my-16 max-w-[450px]">
-    <LoginForm />
-    <VuelidateForm />
+    <!-- <LoginForm /> -->
+    <!-- <VuelidateForm /> -->
     <FormKitExample />
-    <ErrorHandling />
-    <SchemaExample />
+    <!-- <ErrorHandling /> -->
+    <!-- <SchemaExample /> -->
   </div>
 </template>
 <style>
