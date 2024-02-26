@@ -1,0 +1,25 @@
+{
+  "name": "formkit-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.19",
+    "@formkit/vue": "latest",
+    "@formkit/icons": "latest",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "tailwindcss": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.1.4"
+  }
+}
